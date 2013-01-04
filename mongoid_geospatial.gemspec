@@ -15,8 +15,8 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Mongoid::Geospatial::VERSION
 
-  gem.add_dependency('mongoid', ['>= 3.0.0'])
-  gem.add_dependency('activesupport', ["~> 3.2"])
+  gem.add_dependency('mongoid', ['>= 4.0.0'])
+  gem.add_dependency('activesupport', ["= 4.0.0.beta"])
   gem.add_development_dependency('yard', ["~>0.6.0"])
   gem.add_development_dependency('rspec', ['~>2.11'])
   gem.add_development_dependency('mocha', ['>= 0'])
